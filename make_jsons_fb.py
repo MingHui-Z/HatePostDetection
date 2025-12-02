@@ -3,7 +3,7 @@ import os
 
 
 
-with open('C:/Users/user/Desktop/Project/datasets/fb/data/test.jsonl','r') as f:
+with open('C:/Users/lunor/Desktop/yan1/HatePostDetection/datasets/fb/data/test.jsonl','r') as f:
     data = list(f)
     
 
@@ -28,5 +28,5 @@ for point in data:
 json_object = json.dumps(list_data, indent = 4)
   
 # Writing to sample.json
-with open("C:/Users/user/Desktop/Project/datasets/fb/data/files/test.json", "w") as outfile:
+with open("C:/Users/lunor/Desktop/yan1/HatePostDetection/datasets/fb/data/files/test.json", "w") as outfile:
     outfile.write(json_object)
