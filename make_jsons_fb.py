@@ -12,7 +12,7 @@ list_data = []
 for point in data:
     point = json.loads(point)
     dict_temp = {}
-    dict_temp['img'] = point['img'].split('/')[-1]
+    dict_temp['img'] = point['image_path'].split('/')[-1]
 #     print (point['labels'])
 #     if point['labels'][0]=='not harmful':
 #         print("going")
